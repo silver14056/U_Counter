@@ -762,7 +762,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18ac29d2a3f04df458b22937b49aadb5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _startCount: 7
+  _startCount: 0
 --- !u!114 &1994252577
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -777,6 +777,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _button: {fileID: 1994252573}
   _counter: {fileID: 1994252576}
+  _view: {fileID: 1702306310}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

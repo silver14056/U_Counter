@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 
@@ -7,8 +5,6 @@ public class CounterView : MonoBehaviour
 {
     [SerializeField] private Counter _counter;
     [SerializeField] private TextMeshProUGUI _counterText;
-
-
 
     private void Start()
     {
@@ -28,10 +24,5 @@ public class CounterView : MonoBehaviour
     private void Count(int currentCount)
     {
         _counterText.text = currentCount.ToString("");
-    }
-
-    void Update()
-    {
-        
     }
 }
